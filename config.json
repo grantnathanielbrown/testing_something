@@ -1,3 +1,4 @@
 {
-    "blah": "foo bar"
+    "blah": "foo bar",
+    "change": "changing after modifying the get ignore file"
 }
