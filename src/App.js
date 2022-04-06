@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import "./App.css";
+import GradientTest from './components/GradientTest';
+import TestDispatch from './components/TestDispatch';
 import Timeout from './components/Timeout';
 import UEQueue from './components/UEQueue';
+import UETest from './components/UETest';
 
 export default class App extends Component {
   
@@ -15,8 +18,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        {/* <UEQueue></UEQueue> */}
-        <Timeout></Timeout>
+        <GradientTest></GradientTest>
       </div>
     )
   }
