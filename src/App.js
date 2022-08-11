@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import "./App.css";
-import GradientTest from './components/GradientTest';
-import TestDispatch from './components/TestDispatch';
-import Timeout from './components/Timeout';
-import UEQueue from './components/UEQueue';
-import UETest from './components/UETest';
+
 
 export default class App extends Component {
   
@@ -13,12 +9,29 @@ export default class App extends Component {
 
     }
 
+    componentDidMount() {
+      // fetch("https://api.magicthegathering.io/v1/butt")
+      // .then( (res) => {
+      //   if (res.status !== 200) {
+      //     throw new Error("The status code is not 200");
+      //   } 
+      //   return res.json();
+      // })
+      // .then( (parsedData) => {
+      //   console.log(parsedData);
+      // })
+      // .catch( (err) => {
+      //   console.log("hello");
+      // })
+    }
+
+
   
 
   render() {
     return (
       <div className='app'>
-        <GradientTest></GradientTest>
+
       </div>
     )
   }
